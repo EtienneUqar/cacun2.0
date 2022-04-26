@@ -170,7 +170,7 @@ st.markdown(f'<p class="font2"> Les profits générés par la vente de billets d
 st.markdown(f'<p class="font2"> Les revenus dexploitation total pour le vol sont de : {round(vol_Cancun.revenus_exploitation_total(), 2)} $. </p>', unsafe_allow_html=True)
 
 st.markdown(f'<p class="font2"> Les coûts totaux réliés à lexploitation de lavion pour le vol sont de : {round(vol_Cancun.couts_totaux(), 2)} $. </p>', unsafe_allow_html=True)
-            if vol_Cancun.benefices() < 0:
+if vol_Cancun.benefices() < 0:
     st.write(f"Les pertes liées à l'exploitation de l'avion pour le vol en direction de la destination numéro 1 des joueurs de la NBA, Cancun, est de {vol_Cancun.benefices()}$.")
 elif vol_Cancun.benefices() > 0:
     st.write(f"Les bénéfices liés à l'exploitation de l'avion pour le vol en direction de la destination numéro 1 des joueurs de la NBA, Cancun, est de {vol_Cancun.benefices()}$.")
