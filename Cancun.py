@@ -152,7 +152,7 @@ prix_billet = st.sidebar.number_input("Inserez le prix pour un billet d'avion.")
 vol_Cancun = Vol_avion(distance, passagers, conditions_météo, repas, bagages, prix_billet)
 
 #format(round...), ',d').replace(',',' ')) %d %e %f %g %i %u
-st.write(f"Les coûts reliés à l'occupation des places dans l'avion par les passagers sont de : {round(vol_Cancun.couts_passager(), 2)} $.")
+
 
 st.markdown(f'<p class="font1"> Les coûts reliés à occupation des places dans avion par les passagers sont de : {round(vol_Cancun.couts_passager(), 2)} $. </p>', unsafe_allow_html=True)
 
