@@ -1,3 +1,61 @@
+
+st.markdown(""" <style>
+
+.font1 {
+
+        font-size:35px ;
+
+        font-family: 'Cooper Black';
+
+        color: #FF9633;
+
+        text-align: center;
+
+        border: 3px solid green;
+
+      
+
+        }
+
+ 
+
+.font2 {
+
+        font-size:25px ;
+
+        font-family: 'Cooper Black';
+
+        color: gold;
+
+        text-align: center;
+
+        border: 3px solid blue;
+
+ 
+
+        }
+
+ 
+
+.font3 {
+
+        font-size:25px ;
+
+        font-family: 'Cooper Black';
+
+        color: lightskyblue;
+
+        text-align: center;
+
+        border: 3px solid lightgreen;
+
+ 
+
+        }
+
+</style> """,
+
+unsafe_allow_html=True)
 import streamlit as st
 import numpy as np
 st.title("1..2..3..Cancun !")
