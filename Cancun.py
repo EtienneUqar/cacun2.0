@@ -154,7 +154,7 @@ vol_Cancun = Vol_avion(distance, passagers, conditions_météo, repas, bagages, 
 #format(round...), ',d').replace(',',' ')) %d %e %f %g %i %u
 st.write(f"Les coûts reliés à l'occupation des places dans l'avion par les passagers sont de : {round(vol_Cancun.couts_passager(), 2)} $.")
 
-st.markdown(f'<p class="font1"> Les coûts reliés à occupation des places dans avion par les passagers sont de : {round(vol_Cancun.couts_passager(), 2)} $.' </p>', unsafe_allow_html=True)
+st.markdown(f'<p class="font1"> Les coûts reliés à occupation des places dans avion par les passagers sont de : {round(vol_Cancun.couts_passager(), 2)} $. </p>', unsafe_allow_html=True)
 
 st.write(f"Les coûts reliés à l'entreprosage des bagages des passagers dans l'avion sont de : {round(vol_Cancun.couts_bagages(), 2)} $.")
 st.write(f"Les coûts de carburant reliés aux conditions météorologique lors du vol sont de : {round(vol_Cancun.couts_carburant_météo(), 2)} $.")
