@@ -76,7 +76,7 @@ image = Image.open('Cancun.png')
 
 st.image(image, output_format="JPEG")
 
-st.write("Ton équipe s'est fait éliminé des 'Playoffs' 2022 ? Ce n'est pas grave ! Fait comme LeBron et les Lakers et part vers la destination numéro 1 des athlètes de la NBA qui ne se rendent pas loin dans la 'postseason', Cancun !")
+st.markdown(f'<p class="font5"> -Ton équipe s'est fait éliminé des 'Playoffs' 2022 ? Ce n'est pas grave ! Fait comme LeBron et les Lakers et part vers la destination numéro 1 des athlètes de la NBA qui ne se rendent pas loin dans la 'postseason', Cancun ! </p>', unsafe_allow_html=True)
 
 audio_file = open('1, 2, 3... Cancun!.mp3', 'rb')
 audio_bytes = audio_file.read()
