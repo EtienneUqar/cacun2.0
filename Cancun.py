@@ -83,9 +83,9 @@ audio_bytes = audio_file.read()
 
 st.audio(audio_bytes, format='audio/ogg', start_time=8)
 
-st.write("Ce programme permet de calculer les différents revenus et coûts d'exploitation pour le vol d'avion en direction de Cancun.")
-st.write("Pour utiliser ce programme, il faut rentrer les différentes données concernant le vol.")
+st.markdown(f'<p class="font5"> -Ce programme permet de calculer les différents revenus et coûts dexploitation pour le vol davion en direction de Cancun. </p>', unsafe_allow_html=True)
 
+st.markdown(f'<p class="font5"> Pour utiliser ce programme, il faut rentrer les différentes données concernant le vol. </p>', unsafe_allow_html=True)
 
 st.write()
 class Vol_avion:                                            
