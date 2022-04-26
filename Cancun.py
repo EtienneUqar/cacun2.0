@@ -21,7 +21,7 @@ st.markdown(""" <style>
 
         font-size:20px ;
 
-        font-family: 'Arial';
+        font-family: 'Times new roman';
 
         color: #0689a8;
 
@@ -35,7 +35,7 @@ st.markdown(""" <style>
 
         font-size:20px ;
 
-        font-family: 'times new romank';
+        font-family: 'times new roman';
 
         color: red;
 
