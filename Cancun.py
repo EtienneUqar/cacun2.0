@@ -25,7 +25,7 @@ st.markdown(""" <style>
 
         color: #0689a8;
 
-        text-align: center;
+        text-align: right;
         font-weight: bold;
        
 }
