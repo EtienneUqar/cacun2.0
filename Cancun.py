@@ -1,5 +1,5 @@
 import streamlit as st
-st.markdown('<p class="font1"> Travail de session FIN30521 </p>', unsafe_allow_html=True)
+st.markdown('<p class="font1"> "1..2..3..Cancun !" </p>', unsafe_allow_html=True)
 
 
 st.markdown(""" <style>
@@ -8,7 +8,7 @@ st.markdown(""" <style>
 
         font-size:35px ;
 
-        font-family: 'Cooper Black';
+        font-family: 'Arial';
 
         color: #060504;
 
@@ -51,7 +51,7 @@ st.markdown(""" <style>
 
 
 import numpy as np
-st.title("1..2..3..Cancun !")
+
 
 from PIL import Image
 image = Image.open('Cancun.png')
