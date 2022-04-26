@@ -8,7 +8,7 @@ st.markdown(""" <style>
 
         font-size:40px ;
 
-        font-family: 'Broadway';
+        font-family: 'Times new roman';
 
         color: #060504;
 
