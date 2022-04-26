@@ -1,5 +1,5 @@
 import streamlit as st
-st.markdown('<p class="font1"> "1..2..3..Cancun !" </p>', unsafe_allow_html=True)
+st.markdown('<p class="font1"> 1..2..3..Cancun ! </p>', unsafe_allow_html=True)
 
 
 st.markdown(""" <style>
@@ -8,7 +8,7 @@ st.markdown(""" <style>
 
         font-size:35px ;
 
-        font-family: 'Arial';
+        font-family: 'Algerian';
 
         color: #060504;
 
