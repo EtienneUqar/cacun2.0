@@ -176,6 +176,6 @@ elif vol_Cancun.benefices() > 0:
     st.write(f"Les bénéfices liés à l'exploitation de l'avion pour le vol en direction de la destination numéro 1 des joueurs de la NBA, Cancun, est de {vol_Cancun.benefices()}$.")
 
 if vol_Cancun.benefices() < 0:
-    st.write(f"Il faudrait éviter d'enregistrer trop souvent des pertes d'exploitations, sinon l'entreprise risque d'enregistrer une perte nette de 974 M$ pour son deuxième trimestre en 2022, comme une certaine compagnie aérienne canadienne...")
+    st.markdown(f'<p class="font3"> Il faudrait éviter d'enregistrer trop souvent des pertes d'exploitations, sinon l'entreprise risque d'enregistrer une perte nette de 974 M$ pour son deuxième trimestre en 2022, comme une certaine compagnie aérienne canadienne... </p>', unsafe_allow_html=True)
 elif vol_Cancun.benefices() > 0:
     st.write(f"L'entreprise est satisfaite du bénéfice net d'exploitation et a hâte d'accueillir dans ses avions la prochaine équipe de la NBA qui se fera éliminer !")
