@@ -19,11 +19,11 @@ st.markdown(""" <style>
 
 .font2 {
 
-        font-size:15px ;
+        font-size:20px ;
 
         font-family: 'Times new roman';
 
-        color: black;
+        color: #0689a8;
 
         text-align: center;
 
