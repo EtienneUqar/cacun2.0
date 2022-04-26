@@ -10,11 +10,11 @@ st.markdown(""" <style>
 
         font-family: 'Cooper Black';
 
-        color: #FF9633;
+        color: #060504;
 
         text-align: center;
 
-        border: 3px solid green;
+        border: 3px #060504;
         }
 
 .font2 {
