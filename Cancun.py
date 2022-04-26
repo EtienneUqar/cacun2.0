@@ -10,7 +10,7 @@ st.markdown(""" <style>
 
         font-family: 'Times new roman';
 
-        color: #060504;
+        color: #0689a8;
 
         text-align: center;
 
