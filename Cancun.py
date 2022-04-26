@@ -61,7 +61,7 @@ st.markdown(""" <style>
         
         color: black;
         
-        text-align: center;
+        text-align: left;
 
 </style> """, unsafe_allow_html=True)
 
