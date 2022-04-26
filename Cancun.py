@@ -6,7 +6,7 @@ st.markdown(""" <style>
 
 .font1 {
 
-        font-size:40px ;
+        font-size:50px ;
 
         font-family: 'Times new roman';
 
