@@ -189,4 +189,4 @@ elif vol_Cancun.benefices() > 0:
 if vol_Cancun.benefices() < 0:
     st.markdown(f'<p class="font3"> Il faudrait éviter denregistrer trop souvent des pertes dexploitations, sinon lentreprise risque denregistrer une perte nette de 974 M$ pour son deuxième trimestre en 2022, comme une certaine compagnie aérienne canadienne... </p>', unsafe_allow_html=True)
 elif vol_Cancun.benefices() > 0:
-    st.markdown(f'<p class="font3"> Lentreprise est satisfaite du bénéfice net dexploitation et a hâte daccueillir dans ses avions la prochaine équipe de la NBA qui se fera éliminer ! </p>', unsafe_allow_html=True
+    st.markdown(f'<p class="font3"> Lentreprise est satisfaite du bénéfice net dexploitation et a hâte daccueillir dans ses avions la prochaine équipe de la NBA qui se fera éliminer ! </p>', unsafe_allow_html=True)
