@@ -1,4 +1,4 @@
-
+import streamlit as st
 st.markdown(""" <style>
 
 .font1 {
@@ -56,7 +56,6 @@ st.markdown(""" <style>
 </style> """,
 
 unsafe_allow_html=True)
-import streamlit as st
 import numpy as np
 st.title("1..2..3..Cancun !")
 
