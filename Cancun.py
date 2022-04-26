@@ -14,7 +14,7 @@ st.markdown(""" <style>
 
         text-align: center;
 
-        border: 3px solid black;
+        
         }
 
 .font2 {
