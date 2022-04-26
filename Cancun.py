@@ -21,7 +21,7 @@ st.markdown(""" <style>
 
         font-size:20px ;
 
-        font-family: 'Cooper Black';
+        font-family: 'Arial';
 
         color: #0689a8;
 
