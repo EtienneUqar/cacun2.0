@@ -6,9 +6,9 @@ st.markdown(""" <style>
 
 .font1 {
 
-        font-size:35px ;
+        font-size:40px ;
 
-        font-family: 'Algerian';
+        font-family: 'Broadway';
 
         color: #060504;
 
