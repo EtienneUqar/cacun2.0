@@ -43,6 +43,18 @@ st.markdown(""" <style>
 
 
   }
+  
+  .font4 {
+        font-size:20px ;
+        
+        font-family: 'Times new roman';
+        
+        color: green;
+        
+        text-align: center;
+       
+}
+
 
 </style> """, unsafe_allow_html=True)
 
@@ -173,8 +185,7 @@ if vol_Cancun.benefices() < 0:
     st.markdown(f'<p class="font3"> Les pertes liées à lexploitation de lavion pour le vol en direction de la destination numéro 1 des joueurs de la NBA, Cancun, est de {vol_Cancun.benefices()}$. </p>', unsafe_allow_html=True)
 
 elif vol_Cancun.benefices() > 0:
-    st.write(f"Les bénéfices liés à l'exploitation de l'avion pour le vol en direction de la destination numéro 1 des joueurs de la NBA, Cancun, est de {vol_Cancun.benefices()}$.")
-
+    st.markdown(f'<p class="font4"> Les bénéfices liés à l'exploitation de l'avion pour le vol en direction de la destination numéro 1 des joueurs de la NBA, Cancun, est de {vol_Cancun.benefices()}$. </p>', unsafe_allow_html=True)
 if vol_Cancun.benefices() < 0:
     st.markdown(f'<p class="font3"> Il faudrait éviter denregistrer trop souvent des pertes dexploitations, sinon lentreprise risque denregistrer une perte nette de 974 M$ pour son deuxième trimestre en 2022, comme une certaine compagnie aérienne canadienne... </p>', unsafe_allow_html=True)
 elif vol_Cancun.benefices() > 0:
