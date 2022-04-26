@@ -1,4 +1,5 @@
 import streamlit as st
+st.markdown('<p class="font3"> Travail de session FIN30521 par Charles-Philippe</p>', unsafe_allow_html=True)
 st.markdown(""" <style>
 
 .font1 {
@@ -12,12 +13,7 @@ st.markdown(""" <style>
         text-align: center;
 
         border: 3px solid green;
-
-      
-
         }
-
- 
 
 .font2 {
 
