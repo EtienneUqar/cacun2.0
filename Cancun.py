@@ -1,5 +1,5 @@
 import streamlit as st
-st.markdown('<p class="font1"> Travail de session FIN30521 par Charles-Philippe</p>', unsafe_allow_html=True)
+st.markdown('<p class="font1"> Travail de session FIN30521 </p>', unsafe_allow_html=True)
 
 
 st.markdown(""" <style>
@@ -153,6 +153,9 @@ vol_Cancun = Vol_avion(distance, passagers, conditions_météo, repas, bagages, 
 
 #format(round...), ',d').replace(',',' ')) %d %e %f %g %i %u
 st.write(f"Les coûts reliés à l'occupation des places dans l'avion par les passagers sont de : {round(vol_Cancun.couts_passager(), 2)} $.")
+
+st.markdown(f'<p class="font1"> Les coûts reliés à l'occupation des places dans l'avion par les passagers sont de : {round(vol_Cancun.couts_passager(), 2)} $.' </p>', unsafe_allow_html=True)
+
 st.write(f"Les coûts reliés à l'entreprosage des bagages des passagers dans l'avion sont de : {round(vol_Cancun.couts_bagages(), 2)} $.")
 st.write(f"Les coûts de carburant reliés aux conditions météorologique lors du vol sont de : {round(vol_Cancun.couts_carburant_météo(), 2)} $.")
 st.write(f"Les coûts reliés au chauffage et à la climatisation à l'intérieur de l'avion lors du vol sont de : {round(vol_Cancun.couts_chauffage_climatisation(), 2)} $.")
