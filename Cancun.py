@@ -165,7 +165,7 @@ vol_Cancun = Vol_avion(distance, passagers, conditions_météo, repas, bagages, 
 #format(round...), ',d').replace(',',' ')) %d %e %f %g %i %u
 
 
-st.markdown(f'<p class="font3"> -Les coûts reliés à occupation des places dans avion par les passagers sont de : {round(vol_Cancun.couts_passager(), 2)} $. </p>', unsafe_allow_html=True)
+st.markdown(f'<p class="font3"> -Les coûts reliés à occupation des places dans avion par les passagers sont de : </p>', unsafe_allow_html=True)
 st.markdown(f'<p class="font2"> {round(vol_Cancun.couts_passager(), 2)} $. </p>', unsafe_allow_html=True)
 
 st.markdown(f'<p class="font2"> -Les coûts reliés à lentreprosage des bagages des passagers dans lavion sont de : {round(vol_Cancun.couts_bagages(), 2)} $. </p>', unsafe_allow_html=True)
