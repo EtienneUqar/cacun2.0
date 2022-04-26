@@ -21,7 +21,7 @@ st.markdown(""" <style>
 
         font-size:20px ;
 
-        font-family: 'Times new roman';
+        font-family: 'Cooper Black';
 
         color: #0689a8;
 
@@ -165,22 +165,22 @@ vol_Cancun = Vol_avion(distance, passagers, conditions_météo, repas, bagages, 
 #format(round...), ',d').replace(',',' ')) %d %e %f %g %i %u
 
 
-st.markdown(f'<p class="font2"> Les coûts reliés à occupation des places dans avion par les passagers sont de : {round(vol_Cancun.couts_passager(), 2)} $. </p>', unsafe_allow_html=True)
+st.markdown(f'<p class="font2"> -Les coûts reliés à occupation des places dans avion par les passagers sont de : {round(vol_Cancun.couts_passager(), 2)} $. </p>', unsafe_allow_html=True)
 
 
-st.markdown(f'<p class="font2"> Les coûts reliés à lentreprosage des bagages des passagers dans lavion sont de : {round(vol_Cancun.couts_bagages(), 2)} $. </p>', unsafe_allow_html=True)
+st.markdown(f'<p class="font2"> -Les coûts reliés à lentreprosage des bagages des passagers dans lavion sont de : {round(vol_Cancun.couts_bagages(), 2)} $. </p>', unsafe_allow_html=True)
 
-st.markdown(f'<p class="font2"> Les coûts de carburant reliés aux conditions météorologique lors du vol sont de : {round(vol_Cancun.couts_carburant_météo(), 2)} $. </p>', unsafe_allow_html=True)
+st.markdown(f'<p class="font2"> -Les coûts de carburant reliés aux conditions météorologique lors du vol sont de : {round(vol_Cancun.couts_carburant_météo(), 2)} $. </p>', unsafe_allow_html=True)
 
-st.markdown(f'<p class="font2"> Les coûts reliés au chauffage et à la climatisation à lintérieur de lavion lors du vol sont de : {round(vol_Cancun.couts_chauffage_climatisation(), 2)} $. </p>', unsafe_allow_html=True)
+st.markdown(f'<p class="font2"> -Les coûts reliés au chauffage et à la climatisation à lintérieur de lavion lors du vol sont de : {round(vol_Cancun.couts_chauffage_climatisation(), 2)} $. </p>', unsafe_allow_html=True)
 
-st.markdown(f'<p class="font2"> Les profits générés par la vente de repas lors du vol sont de : {round(vol_Cancun.revenus_repas(), 2)} $. </p>', unsafe_allow_html=True)
+st.markdown(f'<p class="font2"> -Les profits générés par la vente de repas lors du vol sont de : {round(vol_Cancun.revenus_repas(), 2)} $. </p>', unsafe_allow_html=True)
 
-st.markdown(f'<p class="font2"> Les profits générés par la vente de billets davion pour le vol sont de : {round(vol_Cancun.revenus_billets(), 2)} $. </p>', unsafe_allow_html=True)
+st.markdown(f'<p class="font2"> -Les profits générés par la vente de billets davion pour le vol sont de : {round(vol_Cancun.revenus_billets(), 2)} $. </p>', unsafe_allow_html=True)
 
-st.markdown(f'<p class="font2"> Les revenus dexploitation total pour le vol sont de : {round(vol_Cancun.revenus_exploitation_total(), 2)} $. </p>', unsafe_allow_html=True)
+st.markdown(f'<p class="font2"> -Les revenus dexploitation total pour le vol sont de : {round(vol_Cancun.revenus_exploitation_total(), 2)} $. </p>', unsafe_allow_html=True)
 
-st.markdown(f'<p class="font2"> Les coûts totaux réliés à lexploitation de lavion pour le vol sont de : {round(vol_Cancun.couts_totaux(), 2)} $. </p>', unsafe_allow_html=True)
+st.markdown(f'<p class="font2"> -Les coûts totaux réliés à lexploitation de lavion pour le vol sont de : {round(vol_Cancun.couts_totaux(), 2)} $. </p>', unsafe_allow_html=True)
 if vol_Cancun.benefices() < 0:
     st.markdown(f'<p class="font3"> Les pertes liées à lexploitation de lavion pour le vol en direction de la destination numéro 1 des joueurs de la NBA, Cancun, est de {vol_Cancun.benefices()}$. </p>', unsafe_allow_html=True)
 
